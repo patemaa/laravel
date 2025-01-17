@@ -6,6 +6,12 @@
     <title>About</title>
 </head>
 <body>
-    <h1>Hello from about page.</h1>
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+</nav>
+{{--    <?php echo $slot ?>--}}
+{{$slot}}
 </body>
 </html>
